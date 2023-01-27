@@ -8,7 +8,7 @@ from rest_framework_jwt.settings import api_settings
 
 from .serializers import UserSerializer
 
-# Get the JWT settings
+# Get the JWT settings - used for creating token for user
 jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
 jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
 

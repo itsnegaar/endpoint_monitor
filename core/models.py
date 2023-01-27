@@ -1,6 +1,6 @@
 from django.db import models
 
-
+#work with database and handle data
 class UrlItem(models.Model):
     """ Url database models"""
     created_on = models.DateTimeField(auto_now_add=True)
